@@ -327,6 +327,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_ODM_PROPERTIES += \
     ro.vendor.qti.va_odm.support=1
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     fstab.qcom \
