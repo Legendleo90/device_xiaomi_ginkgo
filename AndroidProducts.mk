@@ -1,12 +1,13 @@
 #
-# Copyright (C) Evolution-X
+# Copyright (C) PixysOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_ginkgo.mk
+    $(LOCAL_DIR)/pixys_ginkgo.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_ginkgo-user \
-    evolution_ginkgo-userdebug
+    pixys_ginkgo-user \
+    pixys_ginkgo-userdebug \
+    pixys_ginkgo-eng
